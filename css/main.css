@@ -2,6 +2,12 @@
 ul{
   list-style-type: none;
 }
+.flex-Container{
+  display: flex;
+}
+.flex-aside{
+  flex-basis: 200px;
+}
 /* ------ASIDE------*/
 aside {
   background-color: #647087;
