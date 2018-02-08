@@ -4,6 +4,7 @@ ul{
 }
 .flex-Container{
   display: flex;
+  width: 1200px;
 }
 .flex-aside{
   flex-basis: 200px;
@@ -53,6 +54,29 @@ article h4{
 }
 article ul{
   list-style-type: square;
+}
+/* DT */
+dt{
+
+  clear: left;
+  width: 30%;
+  float: left;
+  border-top: 1px solid white;
+
+}
+dd{
+  clear: right;
+  width: 50%;
+  float: left;
+  margin: 0;
+  border-top: 1px solid white;
+}
+dt:last-of-type,
+dd:last-of-type{
+  border-bottom: 1px solid white;
+}
+dl{
+  display: flex;;
 }
 
 /**
