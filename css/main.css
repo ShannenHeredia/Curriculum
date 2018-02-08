@@ -9,6 +9,9 @@ ul{
 .flex-aside{
   flex-basis: 200px;
 }
+h1,h2{
+
+}
 /* ------ASIDE------*/
 aside {
   background-color: #647087;
@@ -18,7 +21,7 @@ aside * {
   color:white;
 }aside h2{
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 15px;
 }
 aside section h2:first-child{
   border-bottom: 2px solid white;
@@ -35,14 +38,17 @@ main section > h2{
 .hero{
   background-color: #F7DDC3;
   box-shadow: 2px 2px 30px 5px #647087 inset;
-  padding: 1px 2px 3px;
+  padding: 15% 0;
 }
 .hero h2{
   color: white;
   border-top: 2px solid white;
-  text-transform: none;
+  text-transform: uppercase;
   letter-spacing: normal;
-
+}
+.hero h1{
+  letter-spacing: 15%;
+}
 .about-me{
   background-color: #F7DDC3;
 }
