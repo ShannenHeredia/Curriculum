@@ -31,9 +31,15 @@ aside section h2:first-child{
   height: auto; */
 }
 /* ------MAIN------*/
+main {
+  margin: auto;
+  padding-left: 20px;
+}
 main section > h2{
   text-transform: uppercase;
   letter-spacing: 5px;
+  margin: auto;
+
 
 }
 .hero{
