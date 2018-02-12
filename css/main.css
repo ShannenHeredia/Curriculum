@@ -9,9 +9,7 @@ ul{
 .flex-aside{
   flex-basis: 200px;
 }
-h1,h2{
 
-}
 /* ------ASIDE------*/
 aside {
   background-color: #647087;
@@ -30,10 +28,17 @@ aside section h2:first-child{
 /*  width: 100px;
   height: auto; */
 }
+.References img{
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+}
+
 /* ------MAIN------*/
 main {
-  margin: auto;
+  margin:20;
   padding-left: 20px;
+  background-color: #DCEBC2;
 }
 main section > h2{
   text-transform: uppercase;
@@ -46,21 +51,28 @@ main section > h2{
   background-color: #EAC9BF;
   box-shadow: 2px 2px 30px 7px #647087 inset;
   padding: 15% 0;
+  text-align: center;
 }
 .hero h2{
   color: white;
   border-top: 2px solid white;
   text-transform: none;
   letter-spacing: normal;
+
 }
 .hero h1{
   letter-spacing: 15%;
+  font-size: 30px;
+  font-style: "Century Gothic";
+   color: teal;
 }
 .about-me p {
-  background-color: #F7DDC3;
+  background-color: #ADDCCA;
+
 }
-.about-me h2{
-  background-color: white;
+ .about-me h2{
+  background-color: #DCEBC2;
+  color: #647087;
 }
 article h3,
 article h4{
@@ -71,10 +83,14 @@ article ul{
 }
 /*REFERENCES */
 .References{
-  display: flex;;
+  display: flex;
   flex-wrap: wrap;
-  background-color: #
 
+}
+.References h2,
+.Experience h2{
+  background-color: #DCEBC2;
+  color: #647087;
 }
 /* DT */
 dt{
@@ -109,7 +125,7 @@ flex-basis:
   content: "\f082"
   font-family:"Font Awesome 5 Free";
   font-weight: 900;
-  content:
+  content
 
 }
 meter{
@@ -117,13 +133,13 @@ meter{
       width: 80%;
 }
  meter::-webkit-meter-optimum-value{
-   background: none;
-   background-color: red;
+
+   background-color: #ADDCCA;
  }
-meter::-webkit-meter-bar{
+/* meter::-webkit-meter-bar{
   background: none;
-  background-color: red;
-}
+  background-color: white;
+} */
 
 
 /* *{
